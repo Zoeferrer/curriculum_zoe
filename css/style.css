@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&family=Oswald:wght@600&display=swap');
+header{
+    background-color:rgb(161, 118, 125) ;
+    background-image: url(../img/imagen_banner1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position:initial;
+    background-size: cover;
+
+}
+
+body{
+    background-color: rgba(241, 169, 255, 0.699);
+    font-family: "Inria Serif"
+
+}
+
+.foto{
+
+    width: 350px; 
+    height: 390px;
+    margin: auto;
+    display: block;
+    border-radius: 150px;
+    padding: 10px;
+    border: 1px solid #b13971;  
+    box-shadow: 5px 5px 0px rgb(219, 132, 169);
+    
+
+}
+.sobreMi{
+    font-size: 60px;
+    color: rgb(139, 44, 80);
+
+
+}
+h1{
+    font-size: 100px;
+    color: rgb(163, 59, 123);
+
+}
+.sobreMi,h1,nav{
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Oswald;
+    /**border: 2px solid #773e4c;**/
+    filter: blur(1px);
+
+    
+
+}
+section{
+    font-size: 35px;
+    line-height: 50px;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 80px; 
+}
+main {
+    margin: 50px auto;
+    max-width: 1041px
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    width: 3180px;
+    height: 80px;
+    color: seashell;
+    font-size: 25px;
+    text-align: center;
+
+}
+.letra_seccion{
+    text-decoration: underline;
+}
+.completo{
+    font-weight: bold;
+    font-style: italic;
+}
+.nav_sobremi{
+    text-decoration: none;
+    font-size: 500px;
+    color: rgb(173, 0, 121);
+}
+.info{
+    font-size: 60px;
+}
+.expseccion{
+    font-weight:bold;
+}
